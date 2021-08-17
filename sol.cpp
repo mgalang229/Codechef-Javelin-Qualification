@@ -16,7 +16,7 @@ int main() {
 			// store the indices in a separate list
 			id[i] = i;
 		}
-		// sort the indicies based on their value in list 'a'
+		// sort the indices based on their value in list 'a'
 		sort(id.begin(), id.end(), [&](const int& i, const int& j) -> bool {
 			return a[i] > a[j];
 		});
